@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>InventoryManagementSystem</RootNamespace>
+    <AssemblyName>InventoryManagementSystem</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\b.jpeg" />
+    <None Remove="img\books.jpeg" />
+    <None Remove="img\cl.jpeg" />
+    <None Remove="img\e.jpeg" />
+    <None Remove="img\fur.jpeg" />
+    <None Remove="img\gro.jpeg" />
+    <None Remove="img\l.jpg" />
+    <None Remove="img\reg.jpeg" />
+    <None Remove="img\to.jpeg" />
+    <None Remove="img\ul.jpeg" />
+    <None Remove="img\vv.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\reg.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\b.jpeg" />
+    <Resource Include="img\books.jpeg" />
+    <Resource Include="img\cl.jpeg" />
+    <Resource Include="img\e.jpeg" />
+    <Resource Include="img\fur.jpeg" />
+    <Resource Include="img\gro.jpeg" />
+    <Resource Include="img\l.jpg" />
+    <Resource Include="img\to.jpeg" />
+    <Resource Include="img\ul.jpeg" />
+    <Resource Include="img\vv.jpg" />
+  </ItemGroup>
+
+</Project>

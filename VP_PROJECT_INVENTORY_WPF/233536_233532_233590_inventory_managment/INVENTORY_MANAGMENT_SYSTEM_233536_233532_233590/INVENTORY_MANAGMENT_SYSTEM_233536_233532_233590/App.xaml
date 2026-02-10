@@ -1,9 +1,0 @@
-﻿<Application x:Class="INVENTORY_MANAGMENT_SYSTEM_233536_233532_233590.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:INVENTORY_MANAGMENT_SYSTEM_233536_233532_233590"
-             StartupUri="user_admin_login.xaml">
-    <Application.Resources>
-         
-    </Application.Resources>
-</Application>
